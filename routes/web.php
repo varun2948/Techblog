@@ -17,5 +17,7 @@
 
 Auth::routes();
 
+Route::view('/{path?}', 'app');
+
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/',                           ['as' => 'main',                  'uses' => 'MainController@index']);

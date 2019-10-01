@@ -38,7 +38,7 @@
 
     @include('main.middlebar')
     <script type='text/javascript' src='{{asset('js/script.js')}}'></script>
-    {{-- <script type="text/javascript">(function() {function addEventListener(element,event,handler) {
+    <script type="text/javascript">(function() {function addEventListener(element,event,handler) {
         if(element.addEventListener) {
             element.addEventListener(event,handler, false);
         } else if(element.attachEvent){
@@ -72,20 +72,31 @@
         }
     }
 
-    })();</script> --}}
-    <script type='text/javascript'>
+    })();</script><script type='text/javascript'>
     /* <![CDATA[ */
-    // var wpcf7 = {"apiSettings":{"root":"http:\/\/soledad.pencidesign.com\/soledad-software-tips-blog\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+    var wpcf7 = {"apiSettings":{"root":"http:\/\/soledad.pencidesign.com\/soledad-software-tips-blog\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
     /* ]]> */
     </script>
     {{-- <script type='text/javascript' src='{{asset('js/scriptsce52.js?ver=5.0.2')}}'></script> --}}
     {{-- <script type='text/javascript' src='{{asset('js/demobar5152.js?ver=1.0')}}'></script> --}}
     <script type='text/javascript' src='{{asset('js/libs-script.min9b2d.js?ver=6.1')}}'></script>
-
+    <script type='text/javascript'>
+    /* <![CDATA[ */
+    var ajax_var_more = {"url":"http:\/\/soledad.pencidesign.com\/soledad-software-tips-blog\/wp-admin\/admin-ajax.php","nonce":"343d6a23b0"};
+    /* ]]> */
+    </script>
     <script type='text/javascript' src='{{asset('js/main9b2d.js?ver=6.1')}}'></script>
-
-    {{-- <script type='text/javascript' src='{{asset('js/post-like9b2d.js?ver=6.1')}}'></script> --}}
-    {{-- <script type='text/javascript' src='{{asset('js/wp-embed.min433d.js?ver=4.9.11')}}'></script> --}}
-
-    {{-- <script type='text/javascript' src='{{asset('js/forms-api.min3d81.js?ver=4.1.6')}}'></script> --}}
+    <script type='text/javascript'>
+    /* <![CDATA[ */
+    // var ajax_var = {"url":"http:\/\/soledad.pencidesign.com\/soledad-software-tips-blog\/wp-admin\/admin-ajax.php","nonce":"343d6a23b0"};
+    /* ]]> */
+    </script>
+    <script type='text/javascript' src='{{asset('js/post-like9b2d.js?ver=6.1')}}'></script>
+    <script type='text/javascript' src='{{asset('js/wp-embed.min433d.js?ver=4.9.11')}}'></script>
+    <script type='text/javascript'>
+    /* <![CDATA[ */
+    var mc4wp_forms_config = [];
+    /* ]]> */
+    </script>
+    <script type='text/javascript' src='{{asset('js/forms-api.min3d81.js?ver=4.1.6')}}'></script>
 </body>
