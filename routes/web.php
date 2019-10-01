@@ -19,5 +19,13 @@ Auth::routes();
 
 Route::view('/{path?}', 'app');
 
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/',                           ['as' => 'main',                  'uses' => 'MainController@index']);
+
+
+// Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('login',                           ['as' => 'main',                  'uses' => 'MainController@index']);
+// Route::get('/admin/dashboard',                             ['as' => 'dashboard',                     'uses' => 'MainController@index']);
+Route::group(['prefix' => 'admin/', 'as' => 'admin.', 'middleware' => 'auth'], function () {
+
+    Route::get('',                             ['as' => 'dashboard',                     'uses' => 'MainController@index']);
+    Route::get('dashboard',                             ['as' => 'dashboard',                     'uses' => 'MainController@index']);
+});
