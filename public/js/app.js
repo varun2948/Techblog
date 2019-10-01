@@ -73189,7 +73189,7 @@ function (_Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Varun"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LeftBar_LeftSideBar__WEBPACK_IMPORTED_MODULE_3__["default"], null))));
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_MiddleBar_MiddleBar__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LeftBar_LeftSideBar__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
     }
   }]);
 
@@ -74040,6 +74040,7 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _RightSideBar_RightSideBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../RightSideBar/RightSideBar */ "./resources/js/components/RightSideBar/RightSideBar.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -74060,28 +74061,1335 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-var LeftSideBar =
+
+var MiddleBar =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(LeftSideBar, _Component);
+  _inherits(MiddleBar, _Component);
 
-  function LeftSideBar() {
-    _classCallCheck(this, LeftSideBar);
+  function MiddleBar() {
+    _classCallCheck(this, MiddleBar);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(LeftSideBar).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(MiddleBar).apply(this, arguments));
   }
 
-  _createClass(LeftSideBar, [{
+  _createClass(MiddleBar, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", null, "Bro");
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "wrapper-boxed header-style-header-1",
+        style: {
+          paddingLeft: "330px"
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+        id: "header",
+        className: "header-header-1",
+        itemScope: "itemScope",
+        itemType: "http://schema.org/WPHeader"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "inner-header"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "logo"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "index.html"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "images/logo.png",
+        alt: "Soledad Software Tips Blog"
+      }))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "featured-area featured-style-13"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-owl-carousel penci-owl-featured-area",
+        "data-style": "style-13",
+        "data-auto": "true",
+        "data-autotime": "4000",
+        "data-speed": "600",
+        "data-loop": "true"
+      }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "wrapper-item wrapper-item-classess"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-item-mag penci-item-1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder owl-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/2-1170x663.jpg",
+        href: "7-useful-keyboard-shortcuts-for-microsoft-office-windows/index.html",
+        title: "7 Useful Keyboard Shortcuts for Microsoft Office & Windows"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-slide-overlay penci-slider6-overlay"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "overlay-link",
+        href: "7-useful-keyboard-shortcuts-for-microsoft-office-windows/index.html"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-mag-featured-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "feat-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "cat featured-cat"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-cat-name",
+        href: "category/featured/index.html",
+        rel: "category tag"
+      }, "Featured"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-cat-name",
+        href: "category/tips-tricks/pc/index.html",
+        rel: "category tag"
+      }, "PC")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        title: "7 Useful Keyboard Shortcuts for Microsoft Office & Windows",
+        href: "7-useful-keyboard-shortcuts-for-microsoft-office-windows/index.html"
+      }, "7 Useful Keyboard Shortcuts for Microsoft Office & Windows")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "feat-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "feat-time"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:12:17+00:00"
+      }, "January 25, 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "feat-comments"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "7-useful-keyboard-shortcuts-for-microsoft-office-windows/index.html#respond "
+      }, "0 comment"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-item-mag penci-item-2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder owl-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/3-2-480x650.jpg",
+        href: "how-not-to-leave-unwanted-messages-on-other-idevices/index.html",
+        title: "How Not To Leave Unwanted Messages On Other iDevices"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-slide-overlay penci-slider6-overlay"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "overlay-link",
+        href: "how-not-to-leave-unwanted-messages-on-other-idevices/index.html"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-mag-featured-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "feat-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        title: "How Not To Leave Unwanted Messages On Other iDevices",
+        href: "how-not-to-leave-unwanted-messages-on-other-idevices/index.html"
+      }, "How Not To Leave Unwanted Messages On Other iDevices")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "feat-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "feat-time"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:12:13+00:00"
+      }, "January 25, 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "feat-comments"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "how-not-to-leave-unwanted-messages-on-other-idevices/index.html#respond "
+      }, "0 comment"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-item-mag penci-item-0"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder owl-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/4-2-480x650.jpg",
+        href: "how-to-customize-do-not-disturb-settings-in-android-9/index.html",
+        title: "How To Customize Do Not Disturb Settings In Android 9"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-slide-overlay penci-slider6-overlay"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "overlay-link",
+        href: "how-to-customize-do-not-disturb-settings-in-android-9/index.html"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-mag-featured-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "feat-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        title: "How To Customize Do Not Disturb Settings In Android 9",
+        href: "how-to-customize-do-not-disturb-settings-in-android-9/index.html"
+      }, "How To Customize Do Not Disturb Settings In Android 9")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "feat-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "feat-time"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:12:10+00:00"
+      }, "January 25, 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "feat-comments"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "how-to-customize-do-not-disturb-settings-in-android-9/index.html#respond "
+      }, "0 comment"))))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "wrapper-item wrapper-item-classess"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-item-mag penci-item-1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder owl-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/5-1170x663.jpg",
+        href: "microsoft-powerpoint-tips-for-working-with-shapes/index.html",
+        title: "Microsoft PowerPoint: Tips for Working with Shapes"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-slide-overlay penci-slider6-overlay"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "overlay-link",
+        href: "microsoft-powerpoint-tips-for-working-with-shapes/index.html"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-mag-featured-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "feat-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "cat featured-cat"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-cat-name",
+        href: "category/featured/index.html",
+        rel: "category tag"
+      }, "Featured"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-cat-name",
+        href: "category/tips-tricks/pc/index.html",
+        rel: "category tag"
+      }, "PC")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        title: "Microsoft PowerPoint: Tips for Working with Shapes",
+        href: "microsoft-powerpoint-tips-for-working-with-shapes/index.html"
+      }, "Microsoft PowerPoint: Tips for Working with Shapes")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "feat-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "feat-time"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:12:05+00:00"
+      }, "January 25, 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "feat-comments"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "microsoft-powerpoint-tips-for-working-with-shapes/index.html#respond "
+      }, "0 comment"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-item-mag penci-item-2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder owl-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/6-480x650.jpg",
+        href: "how-to-type-one-handed-easily-on-iphone-xs-max/index.html",
+        title: "How To Type One-handed Easily on iPhone XS Max"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-slide-overlay penci-slider6-overlay"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "overlay-link",
+        href: "how-to-type-one-handed-easily-on-iphone-xs-max/index.html"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-mag-featured-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "feat-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        title: "How To Type One-handed Easily on iPhone XS Max",
+        href: "how-to-type-one-handed-easily-on-iphone-xs-max/index.html"
+      }, "How To Type One-handed Easily on iPhone XS Max")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "feat-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "feat-time"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:12:01+00:00"
+      }, "January 25, 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "feat-comments"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "how-to-type-one-handed-easily-on-iphone-xs-max/index.html#respond "
+      }, "0 comment"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-item-mag penci-item-0"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder owl-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/7-480x650.jpg",
+        href: "top-10-new-features-of-digital-wellness-on-android-devices/index.html",
+        title: "Top 10 New Features of Digital Wellness on Android Devices"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-slide-overlay penci-slider6-overlay"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "overlay-link",
+        href: "top-10-new-features-of-digital-wellness-on-android-devices/index.html"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-mag-featured-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "feat-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        title: "Top 10 New Features of Digital Wellness on Android Devices",
+        href: "top-10-new-features-of-digital-wellness-on-android-devices/index.html"
+      }, "Top 10 New Features of Digital Wellness on Android Devices")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "feat-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "feat-time"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T04:50:26+00:00"
+      }, "January 25, 2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "feat-comments"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "top-10-new-features-of-digital-wellness-on-android-devices/index.html#respond "
+      }, "0 comment"))))))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container penci_sidebar right-sidebar"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "main",
+        className: "penci-layout-list penci-main-sticky-sidebar"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "theiaStickySidebar"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-border-arrow penci-homepage-title penci-home-latest-posts style-7 pcalign-left"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+        className: "inner-arrow"
+      }, "Latest Posts")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-wrapper-posts-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "penci-wrapper-data penci-grid"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "list-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        id: "post-56",
+        className: "item hentry"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "thumbnail"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/8-585x390.jpg",
+        href: "how-to-use-the-most-of-instagram-new-photography-features/index.html",
+        title: "How To Use The Most Of Instagram New Photography Features"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "content-list-right content-list-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "header-list-style"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "cat"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-cat-name",
+        href: "category/tips-tricks/ios/index.html",
+        rel: "category tag"
+      }, "iOS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "entry-title grid-title"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "how-to-use-the-most-of-instagram-new-photography-features/index.html"
+      }, "How To Use The Most Of Instagram New Photography Features")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-hide-tagupdated"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:29+00:00"
+      }, "January 25, 2019"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "grid-post-box-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:29+00:00"
+      }, "January 25, 2019")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "item-content entry-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes\u2026")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-readmore-btn penci-btn-make-button"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-btn-readmore",
+        href: "how-to-use-the-most-of-instagram-new-photography-features/index.html"
+      }, "Read more", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-angle-double-right"
+      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "list-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        id: "post-55",
+        className: "item hentry"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "thumbnail"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/9-585x390.jpg",
+        href: "how-to-master-microsoft-office-365-office-2019-new-features/index.html",
+        title: "How To Master Microsoft Office 365 & Office 2019 New Features"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "content-list-right content-list-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "header-list-style"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "cat"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-cat-name",
+        href: "category/tips-tricks/pc/index.html",
+        rel: "category tag"
+      }, "PC")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "entry-title grid-title"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "how-to-master-microsoft-office-365-office-2019-new-features/index.html"
+      }, "How To Master Microsoft Office 365 & Office 2019 New Features")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-hide-tagupdated"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:26+00:00"
+      }, "January 25, 2019"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "grid-post-box-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:26+00:00"
+      }, "January 25, 2019")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "item-content entry-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes\u2026")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-readmore-btn penci-btn-make-button"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-btn-readmore",
+        href: "how-to-master-microsoft-office-365-office-2019-new-features/index.html"
+      }, "Read more", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-angle-double-right"
+      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "list-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        id: "post-54",
+        className: "item hentry"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "thumbnail"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/10-585x390.jpg",
+        href: "how-to-make-sure-your-photos-back-up-to-google-photos-automatically/index.html",
+        title: "How To Make Sure Your Photos Back Up To Google Photos Automatically"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "content-list-right content-list-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "header-list-style"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "cat"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-cat-name",
+        href: "category/tips-tricks/android/index.html",
+        rel: "category tag"
+      }, "Android")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "entry-title grid-title"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "how-to-make-sure-your-photos-back-up-to-google-photos-automatically/index.html"
+      }, "How To Make Sure Your Photos Back Up To Google Photos Automatically")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-hide-tagupdated"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:22+00:00"
+      }, "January 25, 2019"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "grid-post-box-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:22+00:00"
+      }, "January 25, 2019")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "item-content entry-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes\u2026")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-readmore-btn penci-btn-make-button"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-btn-readmore",
+        href: "how-to-make-sure-your-photos-back-up-to-google-photos-automatically/index.html"
+      }, "Read more", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-angle-double-right"
+      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "list-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        id: "post-53",
+        className: "item hentry"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "thumbnail"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/11-585x390.jpg",
+        href: "15-easy-google-chrome-tips-keyboard-shortcuts-you-should-know/index.html",
+        title: "15+ Easy Google Chrome Tips & Keyboard Shortcuts You Should Know"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "content-list-right content-list-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "header-list-style"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "cat"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-cat-name",
+        href: "category/tips-tricks/pc/index.html",
+        rel: "category tag"
+      }, "PC")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "entry-title grid-title"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "15-easy-google-chrome-tips-keyboard-shortcuts-you-should-know/index.html"
+      }, "15+ Easy Google Chrome Tips & Keyboard Shortcuts You Should Know")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-hide-tagupdated"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:19+00:00"
+      }, "January 25, 2019"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "grid-post-box-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:19+00:00"
+      }, "January 25, 2019")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "item-content entry-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes\u2026")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-readmore-btn penci-btn-make-button"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-btn-readmore",
+        href: "15-easy-google-chrome-tips-keyboard-shortcuts-you-should-know/index.html"
+      }, "Read more", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-angle-double-right"
+      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "list-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        id: "post-52",
+        className: "item hentry"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "thumbnail"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/12-585x390.jpg",
+        href: "how-to-shoot-perfect-portraits-with-iphone-xs-ios-12/index.html",
+        title: "How To Shoot Perfect Portraits With iPhone XS & iOS 12"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "content-list-right content-list-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "header-list-style"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "cat"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-cat-name",
+        href: "category/tips-tricks/ios/index.html",
+        rel: "category tag"
+      }, "iOS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "entry-title grid-title"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "how-to-shoot-perfect-portraits-with-iphone-xs-ios-12/index.html"
+      }, "How To Shoot Perfect Portraits With iPhone XS & iOS 12")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-hide-tagupdated"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:15+00:00"
+      }, "January 25, 2019"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "grid-post-box-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:15+00:00"
+      }, "January 25, 2019")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "item-content entry-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes\u2026")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-readmore-btn penci-btn-make-button"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-btn-readmore",
+        href: "how-to-shoot-perfect-portraits-with-iphone-xs-ios-12/index.html"
+      }, "Read more", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-angle-double-right"
+      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "list-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        id: "post-51",
+        className: "item hentry"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "thumbnail"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/13-585x390.jpg",
+        href: "how-to-try-different-home-screen-with-this-useful-app/index.html",
+        title: "How To Try Different Home Screen With This Useful App"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "content-list-right content-list-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "header-list-style"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "cat"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-cat-name",
+        href: "category/tips-tricks/android/index.html",
+        rel: "category tag"
+      }, "Android")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "entry-title grid-title"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "how-to-try-different-home-screen-with-this-useful-app/index.html"
+      }, "How To Try Different Home Screen With This Useful App")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-hide-tagupdated"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:12+00:00"
+      }, "January 25, 2019"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "grid-post-box-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:12+00:00"
+      }, "January 25, 2019")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "item-content entry-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes\u2026")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-readmore-btn penci-btn-make-button"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-btn-readmore",
+        href: "how-to-try-different-home-screen-with-this-useful-app/index.html"
+      }, "Read more", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-angle-double-right"
+      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "list-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        id: "post-50",
+        className: "item hentry"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "thumbnail"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/14-585x390.jpg",
+        href: "chrome-tips-to-change-fonts-for-better-reading-with-3-easy-tips/index.html",
+        title: "Chrome Tips to Change Fonts for Better Reading With 3 Easy Tips"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "content-list-right content-list-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "header-list-style"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "cat"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-cat-name",
+        href: "category/tips-tricks/pc/index.html",
+        rel: "category tag"
+      }, "PC")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "entry-title grid-title"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "chrome-tips-to-change-fonts-for-better-reading-with-3-easy-tips/index.html"
+      }, "Chrome Tips to Change Fonts for Better Reading With 3 Easy Tips")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-hide-tagupdated"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:04+00:00"
+      }, "January 25, 2019"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "grid-post-box-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:04+00:00"
+      }, "January 25, 2019")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "item-content entry-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes\u2026")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-readmore-btn penci-btn-make-button"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-btn-readmore",
+        href: "chrome-tips-to-change-fonts-for-better-reading-with-3-easy-tips/index.html"
+      }, "Read more", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-angle-double-right"
+      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "list-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        id: "post-49",
+        className: "item hentry"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "thumbnail"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/16-585x390.jpg",
+        href: "how-to-use-drag-and-drop-feature-with-ios-12-on-ipad-pro/index.html",
+        title: "How To Use Drag and Drop Feature With iOS 12 on iPad Pro"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "how-to-use-drag-and-drop-feature-with-ios-12-on-ipad-pro/index.html",
+        className: "icon-post-format"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-link"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "content-list-right content-list-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "header-list-style"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "cat"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-cat-name",
+        href: "category/tips-tricks/ios/index.html",
+        rel: "category tag"
+      }, "iOS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "entry-title grid-title"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "how-to-use-drag-and-drop-feature-with-ios-12-on-ipad-pro/index.html"
+      }, "How To Use Drag and Drop Feature With iOS 12 on iPad Pro")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-hide-tagupdated"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:00+00:00"
+      }, "January 25, 2019"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "grid-post-box-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:00+00:00"
+      }, "January 25, 2019")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "item-content entry-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes\u2026")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-readmore-btn penci-btn-make-button"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-btn-readmore",
+        href: "how-to-use-drag-and-drop-feature-with-ios-12-on-ipad-pro/index.html"
+      }, "Read more", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-angle-double-right"
+      })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "list-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+        id: "post-48",
+        className: "item hentry"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "thumbnail"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-owl-carousel penci-owl-carousel-slider penci-nav-visible",
+        "data-auto": "true"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
+        className: "penci-image-holder penci-lazy",
+        alt: "Learn How To Use Google Assistant With This Simple & Detailed Guide",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/15-585x390.jpg"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("figure", {
+        className: "penci-image-holder penci-lazy",
+        alt: "Learn How To Use Google Assistant With This Simple & Detailed Guide",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2015/11/41-585x390.jpg"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "content-list-right content-list-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "header-list-style"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "cat"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-cat-name",
+        href: "category/tips-tricks/android/index.html",
+        rel: "category tag"
+      }, "Android")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+        className: "entry-title grid-title"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "learn-how-to-use-google-assistant-with-this-simple-detailed-guide/index.html"
+      }, "Learn How To Use Google Assistant With This Simple & Detailed Guide")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-hide-tagupdated"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:12:53+00:00"
+      }, "January 25, 2019"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "grid-post-box-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "author-italic author vcard"
+      }, "by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "url fn n",
+        href: "author/admin/index.html"
+      }, "Penci")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:12:53+00:00"
+      }, "January 25, 2019")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "item-content entry-content"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes\u2026")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-readmore-btn penci-btn-make-button"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-btn-readmore",
+        href: "learn-how-to-use-google-assistant-with-this-simple-detailed-guide/index.html"
+      }, "Read more", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-angle-double-right"
+      }))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-pagination align-left"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "page-numbers"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        "aria-current": "page",
+        className: "page-numbers current"
+      }, "1")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "page-numbers",
+        href: "page/2/index.html"
+      }, "2")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "page-numbers",
+        href: "page/3/index.html"
+      }, "3")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "next page-numbers",
+        href: "page/2/index.html"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-angle-right"
+      })))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RightSideBar_RightSideBar__WEBPACK_IMPORTED_MODULE_1__["default"], null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "clear-footer"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "footer-subscribe"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("aside", {
+        id: "mc4wp_form_widget-2",
+        className: "widget widget_mc4wp_form_widget"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "footer-subscribe-title"
+      }, "Subscribe Newsletter"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+        id: "mc4wp-form-1",
+        className: "mc4wp-form mc4wp-form-6",
+        method: "post",
+        "data-id": "6",
+        "data-name": "Form"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "mc4wp-form-fields"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "mdes"
+      }, "Subscribe my Newsletter for new blog posts, tips  new photos. Let's stay updated!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "mname"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text",
+        name: "NAME",
+        placeholder: "Name..."
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "memail"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "email",
+        id: "mc4wp_email",
+        name: "EMAIL",
+        placeholder: "Email...",
+        required: true
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "msubmit"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "submit"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        style: {
+          display: "none"
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text",
+        name: "_mc4wp_honeypot",
+        tabIndex: "-1",
+        autoComplete: "off"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "hidden",
+        name: "_mc4wp_timestamp"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "mc4wp-response"
+      }))), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+        id: "footer-section",
+        className: "penci-footer-social-media penci-lazy",
+        itemScope: true,
+        itemType: "http://schema.org/WPFooter"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "footer-socials-section penci-social-colored"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "footer-socials"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.facebook.com/PenciDesign",
+        rel: "nofollow",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-facebook"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Facebook"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://twitter.com/PenciDesign",
+        rel: "nofollow",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-twitter"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Twitter"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        rel: "nofollow",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-instagram"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Instagram"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        rel: "nofollow",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-youtube-play"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Youtube"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-envelope-o"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Email"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        rel: "nofollow",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-rss"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "RSS"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "footer-logo-copyright footer-not-logo footer-not-gotop"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "footer-copyright"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "@2019 - PenciDesign. All Right Reserved. Designed and Developed by ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "http://themeforest.net/item/soledad-multiconcept-blogmagazine-wp-theme/12945398?ref=PenciDesign",
+        target: "_blank"
+      }, "PenciDesign")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-go-to-top-floating"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-angle-up"
+      })))));
     }
   }]);
 
-  return LeftSideBar;
+  return MiddleBar;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (LeftSideBar);
+/* harmony default export */ __webpack_exports__["default"] = (MiddleBar);
+
+/***/ }),
+
+/***/ "./resources/js/components/RightSideBar/RightSideBar.js":
+/*!**************************************************************!*\
+  !*** ./resources/js/components/RightSideBar/RightSideBar.js ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+var RightSideBar =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(RightSideBar, _Component);
+
+  function RightSideBar() {
+    _classCallCheck(this, RightSideBar);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(RightSideBar).apply(this, arguments));
+  }
+
+  _createClass(RightSideBar, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        id: "sidebar",
+        className: "penci-sidebar-content style-6 pcalign-left penci-sticky-sidebar"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "theiaStickySidebar"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("aside", {
+        id: "penci_about_widget-2",
+        className: "widget penci_about_widget"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "widget-title penci-border-arrow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "inner-arrow"
+      }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "about-widget pc_alignleft"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "penci-widget-about-image nopin holder-square penci-lazy",
+        nopin: "nopin",
+        src: "images/penci2-holder.png",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/aboutwid.jpg",
+        alt: "About"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Welcome to software tips blog where you can find useful tips for variety of softwares you use on daily basic. Subscribe Now!"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("aside", {
+        id: "penci_social_widget-2",
+        className: "widget penci_social_widget"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "widget-title penci-border-arrow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "inner-arrow"
+      }, "Stay Connect")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "widget-social pc_aligncenter show-text penci-social-colored"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        rel: "nofollow",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-facebook",
+        style: {
+          fontSize: "14px"
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        style: {
+          fontSize: "13px"
+        }
+      }, "Facebook")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        rel: "nofollow",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-twitter",
+        style: {
+          fontSize: "14px"
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        style: {
+          fontSize: "13px"
+        }
+      }, "Twitter")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        rel: "nofollow",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-instagram",
+        style: {
+          fontSize: "14px"
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        style: {
+          fontSize: "13px"
+        }
+      }, "Instagram")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        rel: "nofollow",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-pinterest",
+        style: {
+          fontSize: "14px"
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        style: {
+          fontSize: "13px"
+        }
+      }, "Pinterest")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        rel: "nofollow",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-youtube-play",
+        style: {
+          fontSize: "14px"
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        style: {
+          fontSize: "13px"
+        }
+      }, "Youtube")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        rel: "nofollow",
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        className: "fa fa-rss",
+        style: {
+          fontSize: "14px"
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        style: {
+          fontSize: "13px"
+        }
+      }, "RSS")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("aside", {
+        id: "text-2",
+        className: "widget widget_text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "widget-title penci-border-arrow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "inner-arrow"
+      }, "Latest Videos")), "   ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "textwidget"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.youtube.com/embed/sS4Y1Laovzw",
+        frameBorder: "0",
+        allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+        allowFullScreen: true
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        src: "https://www.youtube.com/embed/FYwCdhVVSWg",
+        frameBorder: "0",
+        allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+        allowFullScreen: true
+      })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("aside", {
+        id: "penci_popular_news_widget-2",
+        className: "widget penci_popular_news_widget"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "widget-title penci-border-arrow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "inner-arrow"
+      }, "Popular Posts")), "    ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        id: "penci-popularwg-6809",
+        className: "side-newsfeed penci-feed-2columns penci-2columns-feed display-order-numbers"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "penci-feed"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "order-border-number"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "number-post"
+      }, "1")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-image"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy small-fix-size",
+        rel: "bookmark",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/2-263x175.jpg",
+        href: "7-useful-keyboard-shortcuts-for-microsoft-office-windows/index.html",
+        title: "7 Useful Keyboard Shortcuts for Microsoft Office & Windows"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-item-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "side-title-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "7-useful-keyboard-shortcuts-for-microsoft-office-windows/index.html",
+        rel: "bookmark",
+        title: "7 Useful Keyboard Shortcuts for Microsoft Office & Windows"
+      }, "7 Useful Keyboard Shortcuts for Microsoft Office & Windows          ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "side-item-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:12:17+00:00"
+      }, "January 25, 2019"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "penci-feed"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "order-border-number"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "number-post"
+      }, "2")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-image"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy small-fix-size",
+        rel: "bookmark",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/18-263x175.jpg",
+        href: "microsoft-excel-tips-5-easy-shortcuts-to-format-select/index.html",
+        title: "Microsoft Excel Tips: 5 Easy Shortcuts to Format & Select"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-item-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "side-title-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "microsoft-excel-tips-5-easy-shortcuts-to-format-select/index.html",
+        rel: "bookmark",
+        title: "Microsoft Excel Tips: 5 Easy Shortcuts to Format & Select"
+      }, "Microsoft Excel Tips: 5 Easy Shortcuts to Format & Select          ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "side-item-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:12:46+00:00"
+      }, "January 25, 2019"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "penci-feed"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "order-border-number"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "number-post"
+      }, "3")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-image"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy small-fix-size",
+        rel: "bookmark",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/8-263x175.jpg",
+        href: "how-to-use-the-most-of-instagram-new-photography-features/index.html",
+        title: "How To Use The Most Of Instagram New Photography Features"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-item-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "side-title-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "how-to-use-the-most-of-instagram-new-photography-features/index.html",
+        rel: "bookmark",
+        title: "How To Use The Most Of Instagram New Photography Features"
+      }, "How To Use The Most Of Instagram New Photography Features          ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "side-item-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:29+00:00"
+      }, "January 25, 2019"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "penci-feed"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "order-border-number"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "number-post"
+      }, "4")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-image"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy small-fix-size",
+        rel: "bookmark",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/9-263x175.jpg",
+        href: "how-to-master-microsoft-office-365-office-2019-new-features/index.html",
+        title: "How To Master Microsoft Office 365 & Office 2019 New Features"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-item-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "side-title-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "how-to-master-microsoft-office-365-office-2019-new-features/index.html",
+        rel: "bookmark",
+        title: "How To Master Microsoft Office 365 & Office 2019 New Features"
+      }, "How To Master Microsoft Office 365 & Office 2019 New Features          ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "side-item-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:26+00:00"
+      }, "January 25, 2019"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "penci-feed"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "order-border-number"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "number-post"
+      }, "5")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-image"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy small-fix-size",
+        rel: "bookmark",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/15-1-263x175.jpg",
+        href: "learn-how-to-use-google-assistant-with-this-simple-detailed-guide/index.html",
+        title: "Learn How To Use Google Assistant With This Simple & Detailed Guide"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-item-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "side-title-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "learn-how-to-use-google-assistant-with-this-simple-detailed-guide/index.html",
+        rel: "bookmark",
+        title: "Learn How To Use Google Assistant With This Simple & Detailed Guide"
+      }, "Learn How To Use Google Assistant With This Simple & Detailed Guide          ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "side-item-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:12:53+00:00"
+      }, "January 25, 2019"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "penci-feed"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "order-border-number"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "number-post"
+      }, "6")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-item"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-image"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-image-holder penci-lazy small-fix-size",
+        rel: "bookmark",
+        "data-src": "http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/10-263x175.jpg",
+        href: "how-to-make-sure-your-photos-back-up-to-google-photos-automatically/index.html",
+        title: "How To Make Sure Your Photos Back Up To Google Photos Automatically"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "side-item-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "side-title-post"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "how-to-make-sure-your-photos-back-up-to-google-photos-automatically/index.html",
+        rel: "bookmark",
+        title: "How To Make Sure Your Photos Back Up To Google Photos Automatically"
+      }, "How To Make Sure Your Photos Back Up To Google Photos Automatically          ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "side-item-meta"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("time", {
+        className: "entry-date published",
+        dateTime: "2019-01-25T07:13:22+00:00"
+      }, "January 25, 2019"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("aside", {
+        id: "penci_list_banner_widget-2",
+        className: "widget penci_list_banner_widget"
+      }, "              ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-list-banner"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-promo-item penci-banner-has-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "penci-promo-link",
+        href: "#"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "penci-lazy",
+        src: "images/penci-holder.png",
+        "data-src": "images/ban.jpg",
+        alt: "Promotion Image"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "penci-promo-text"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "banner"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("aside", {
+        id: "categories-2",
+        className: "widget widget_categories"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        className: "widget-title penci-border-arrow"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "inner-arrow"
+      }, "Categories")), "  ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "cat-item cat-item-6"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "category/featured/index.html"
+      }, "Featured ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "category-item-count"
+      }, "(6)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "cat-item cat-item-7"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "category/tips-tricks/index.html"
+      }, "Tips & Tricks ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "category-item-count"
+      }, "(21)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "children"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "cat-item cat-item-9"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "category/tips-tricks/android/index.html"
+      }, "Android ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "category-item-count"
+      }, "(7)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "cat-item cat-item-8"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "category/tips-tricks/ios/index.html"
+      }, "iOS ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "category-item-count"
+      }, "(7)"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "cat-item cat-item-10"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "category/tips-tricks/pc/index.html"
+      }, "PC ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "category-item-count"
+      }, "(7)"))))))), " ")));
+    }
+  }]);
+
+  return RightSideBar;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (RightSideBar);
 
 /***/ }),
 

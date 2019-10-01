@@ -483,7 +483,8 @@
 
 
 	<div class="footer-subscribe">
-		<aside id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget"><h4 class="footer-subscribe-title">Subscribe Newsletter</h4><script type="text/javascript">(function() {
+        <aside id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget"><h4 class="footer-subscribe-title">Subscribe Newsletter</h4>
+        <script type="text/javascript">(function() {
 	if (!window.mc4wp) {
 		window.mc4wp = {
 			listeners: [],

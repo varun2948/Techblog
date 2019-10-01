@@ -11,9 +11,11 @@
         <link rel='stylesheet' id='contact-form-7-css'  href='{{asset('css/stylesce52.css?ver=5.0.2')}}' type='text/css' media='all' />
         <link rel='stylesheet' id='penci-demobar-style-css'  href='{{asset('css/demobar5152.css?ver=1.0')}}' type='text/css' media='all' />
         <link rel='stylesheet' id='penci-fonts-css'  href='{{asset('css/cssfb5c.css?family=Raleway%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CPT+Serif%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CPlayfair+Display+SC%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CMontserrat%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CNunito%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%7CKarla%3A300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C700%2C700italic%2C800%2C800italic%26subset%3Dcyrillic%2Ccyrillic-ext%2Cgreek%2Cgreek-ext%2Clatin-ext&amp;ver=1.0')}}' type='text/css' media='all' />
-        <link rel='stylesheet' id='penci_style-css'  href='{{asset('css/style9b2d.css?ver=6.1')}}' type='text/css' media='all' />
         <link rel='stylesheet' id='penci-instag-slider-css'  href='{{asset('css/instag-slider5152.css?ver=1.0')}}' type='text/css' media='all' />
+        <link rel='stylesheet' id='penci_style-css'  href='{{asset('css/style9b2d.css?ver=6.1')}}' type='text/css' media='all' />
         <link rel='stylesheet' href='{{asset('css/main.css')}}' type='text/css'/>
+        
+
 
     </head>
     <body>

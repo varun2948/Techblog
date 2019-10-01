@@ -10,10 +10,8 @@ class App extends Component {
         return (
             <Fragment>
                 <BrowserRouter>
-                    <div>
-                        <h1>Varun</h1>
-                        <LeftSideBar />
-                    </div>
+                    <MiddleBar />
+                    <LeftSideBar />
                 </BrowserRouter>
             </Fragment>
 
