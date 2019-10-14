@@ -26,7 +26,15 @@
     <!-- Custom styles for this template -->
     <link href="{{asset('css/dashboard_css/style.css')}}" rel="stylesheet">
     <link href="{{asset('css/dashboard_css/style-responsive.css')}}" rel="stylesheet" />
-
+    <style>
+    ins {
+        color: #f33c3c;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        text-decoration: none;
+        margin-right: 5px;
+    }
+    </style>
     @yield('css')
 </head>
 

@@ -12,10 +12,21 @@
                 <li class="sub-menu">
                     <a href="javascript:;">
                         <i class="fa fa-laptop"></i>
-                        <span>Slider Table</span>
+                        <span>Platform Table(Category)</span>
                     </a>
                     <ul class="sub">
-                        <li><a href="{{url('admin/slider')}}">Add Slider</a></li>
+                        <li><a href="{{url('admin/platform')}}">Add Platform</a></li>
+                        <!-- <li><a href="horizontal_menu.html">Edit Slider</a></li>
+                        <li><a href="language_switch.html">Remove Slider</a></li> -->
+                    </ul>
+                </li>
+                <li class="sub-menu">
+                    <a href="javascript:;">
+                        <i class="fa fa-laptop"></i>
+                        <span>Posts Table</span>
+                    </a>
+                    <ul class="sub">
+                        <li><a href="{{url('admin/posts')}}">Add Post</a></li>
                         <!-- <li><a href="horizontal_menu.html">Edit Slider</a></li>
                         <li><a href="language_switch.html">Remove Slider</a></li> -->
                     </ul>

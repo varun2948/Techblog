@@ -1,8 +1,28 @@
 import React, { Component } from 'react';
+import axios from 'axios'
 import RightSideBar from '../RightSideBar/RightSideBar';
+import Footer from '../Footer/Footer';
 class MiddleBar extends Component {
-
+    constructor() {
+        super()
+        this.state = {
+            posts: []
+        }
+    }
+    componentDidMount() {
+        axios.get('/api/posts').then(response => {
+            console.log(response);
+            this.setState({
+                posts: response.data
+            })
+        })
+    }
     render() {
+        const { posts } = this.state;
+        //  posts.map(post_all =>
+        //     post_all.map((post, i) =>{console.log(post,"single post"); return }));
+
+        // console.log(posts);
         return (
             <div className="wrapper-boxed header-style-header-1" style={{ paddingLeft: "330px" }}>
                 <header id="header" className="header-header-1" itemScope="itemScope" itemType="http://schema.org/WPHeader">
@@ -19,60 +39,72 @@ class MiddleBar extends Component {
 
                 </header>
 
-                <div className="featured-area featured-style-13"><div className="penci-owl-carousel penci-owl-featured-area" data-style="style-13" data-auto="true" data-autotime="4000" data-speed="600" data-loop="true">	<div className="item">
-                    <div className="wrapper-item wrapper-item-classess">
-                        <div className="penci-item-mag penci-item-1">
-                            <a className="penci-image-holder owl-lazy" data-src="http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/2-1170x663.jpg" href="7-useful-keyboard-shortcuts-for-microsoft-office-windows/index.html" title="7 Useful Keyboard Shortcuts for Microsoft Office &#038; Windows"></a>
+                <div className="featured-area featured-style-13"><div className="penci-owl-carousel penci-owl-featured-area" data-style="style-13" data-auto="true" data-autotime="4000" data-speed="600" data-loop="true">
+                 {posts.map(post => (
+
+                        <div className="item">
+                        <div className="wrapper-item wrapper-item-classess">
+                        {post.map((pos,i)=>{
+                         return(
+                        <div className={i == 0 ? 'penci-item-mag penci-item-1' : 'penci-item-mag penci-item-0'}>
+                            <a className="penci-image-holder owl-lazy" data-src={pos.image} href="microsoft-powerpoint-tips-for-working-with-shapes/index.html" title="Microsoft PowerPoint: Tips for Working with Shapes"></a>
                             <div className="penci-slide-overlay penci-slider6-overlay">
-                                <a className="overlay-link" href="7-useful-keyboard-shortcuts-for-microsoft-office-windows/index.html"></a>
+                                <a className="overlay-link" href="microsoft-powerpoint-tips-for-working-with-shapes/index.html"></a>
                                 <div className="penci-mag-featured-content">
                                     <div className="feat-text">
                                         <div className="cat featured-cat"><a className="penci-cat-name" href="category/featured/index.html" rel="category tag">Featured</a><a className="penci-cat-name" href="category/tips-tricks/pc/index.html" rel="category tag">PC</a></div>
-                                        <h3><a title="7 Useful Keyboard Shortcuts for Microsoft Office &#038; Windows" href="7-useful-keyboard-shortcuts-for-microsoft-office-windows/index.html">7 Useful Keyboard Shortcuts for Microsoft Office &#038; Windows</a></h3>
+                                        <h3><a title="Microsoft PowerPoint: Tips for Working with Shapes" href="microsoft-powerpoint-tips-for-working-with-shapes/index.html">{post.title}</a></h3>
                                         <div className="feat-meta">
-                                            <span className="feat-time"><time className="entry-date published" dateTime="2019-01-25T07:12:17+00:00">January 25, 2019</time></span>
-                                            <span className="feat-comments"><a href="7-useful-keyboard-shortcuts-for-microsoft-office-windows/index.html#respond ">0 comment</a></span>
+                                            <span className="feat-time"><time className="entry-date published" dateTime="2019-01-25T07:12:05+00:00">January 25, 2019</time></span>
+                                            <span className="feat-comments"><a href="microsoft-powerpoint-tips-for-working-with-shapes/index.html#respond ">0 comment</a></span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-
-                        <div className="penci-item-mag penci-item-2">
-                            <a className="penci-image-holder owl-lazy" data-src="http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/3-2-480x650.jpg" href="how-not-to-leave-unwanted-messages-on-other-idevices/index.html" title="How Not To Leave Unwanted Messages On Other iDevices"></a>
-                            <div className="penci-slide-overlay penci-slider6-overlay">
-                                <a className="overlay-link" href="how-not-to-leave-unwanted-messages-on-other-idevices/index.html"></a>
-                                <div className="penci-mag-featured-content">
-                                    <div className="feat-text">
-                                        <h3><a title="How Not To Leave Unwanted Messages On Other iDevices" href="how-not-to-leave-unwanted-messages-on-other-idevices/index.html">How Not To Leave Unwanted Messages On Other iDevices</a></h3>
-                                        <div className="feat-meta">
-                                            <span className="feat-time"><time className="entry-date published" dateTime="2019-01-25T07:12:13+00:00">January 25, 2019</time></span>
-                                            <span className="feat-comments"><a href="how-not-to-leave-unwanted-messages-on-other-idevices/index.html#respond ">0 comment</a></span>
-                                        </div>
+                        );
+                     })}
+                     </div>
+                     </div>
+                    ))};
+                    {/* <div className="penci-item-mag penci-item-2">
+                        <a className="penci-image-holder owl-lazy" data-src="http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/6-480x650.jpg" href="how-to-type-one-handed-easily-on-iphone-xs-max/index.html" title="How To Type One-handed Easily on iPhone XS Max"></a>
+                        <div className="penci-slide-overlay penci-slider6-overlay">
+                            <a className="overlay-link" href="how-to-type-one-handed-easily-on-iphone-xs-max/index.html"></a>
+                            <div className="penci-mag-featured-content">
+                                <div className="feat-text">
+                                    <h3><a title="How To Type One-handed Easily on iPhone XS Max" href="how-to-type-one-handed-easily-on-iphone-xs-max/index.html">{post.title}</a></h3>
+                                    <div className="feat-meta">
+                                        <span className="feat-time"><time className="entry-date published" dateTime="2019-01-25T07:12:01+00:00">January 25, 2019</time></span>
+                                        <span className="feat-comments"><a href="how-to-type-one-handed-easily-on-iphone-xs-max/index.html#respond ">0 comment</a></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
 
-                        <div className="penci-item-mag penci-item-0">
-                            <a className="penci-image-holder owl-lazy" data-src="http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/4-2-480x650.jpg" href="how-to-customize-do-not-disturb-settings-in-android-9/index.html" title="How To Customize Do Not Disturb Settings In Android 9"></a>
-                            <div className="penci-slide-overlay penci-slider6-overlay">
-                                <a className="overlay-link" href="how-to-customize-do-not-disturb-settings-in-android-9/index.html"></a>
-                                <div className="penci-mag-featured-content">
-                                    <div className="feat-text">
-                                        <h3><a title="How To Customize Do Not Disturb Settings In Android 9" href="how-to-customize-do-not-disturb-settings-in-android-9/index.html">How To Customize Do Not Disturb Settings In Android 9</a></h3>
-                                        <div className="feat-meta">
-                                            <span className="feat-time"><time className="entry-date published" dateTime="2019-01-25T07:12:10+00:00">January 25, 2019</time></span>
-                                            <span className="feat-comments"><a href="how-to-customize-do-not-disturb-settings-in-android-9/index.html#respond ">0 comment</a></span>
-                                        </div>
+                    <div className="penci-item-mag penci-item-0">
+                        <a className="penci-image-holder owl-lazy" data-src="http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/7-480x650.jpg" href="top-10-new-features-of-digital-wellness-on-android-devices/index.html" title="Top 10 New Features of Digital Wellness on Android Devices"></a>
+                        <div className="penci-slide-overlay penci-slider6-overlay">
+                            <a className="overlay-link" href="top-10-new-features-of-digital-wellness-on-android-devices/index.html"></a>
+                            <div className="penci-mag-featured-content">
+                                <div className="feat-text">
+                                    <h3><a title="Top 10 New Features of Digital Wellness on Android Devices" href="top-10-new-features-of-digital-wellness-on-android-devices/index.html">Top 10 New Features of Digital Wellness on Android Devices</a></h3>
+                                    <div className="feat-meta">
+                                        <span className="feat-time"><time className="entry-date published" dateTime="2019-01-25T04:50:26+00:00">January 25, 2019</time></span>
+                                        <span className="feat-comments"><a href="top-10-new-features-of-digital-wellness-on-android-devices/index.html#respond ">0 comment</a></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div> */}
 
-                    </div></div><div className="item"><div className="wrapper-item wrapper-item-classess">
+
+
+                    {/* <div className="item">
+                        <div className="wrapper-item wrapper-item-classess">
                         <div className="penci-item-mag penci-item-1">
                             <a className="penci-image-holder owl-lazy" data-src="http://max.soledad.pencidesign.com/soledad-software-tips-blog/wp-content/uploads/sites/102/2019/01/5-1170x663.jpg" href="microsoft-powerpoint-tips-for-working-with-shapes/index.html" title="Microsoft PowerPoint: Tips for Working with Shapes"></a>
                             <div className="penci-slide-overlay penci-slider6-overlay">
@@ -126,7 +158,7 @@ class MiddleBar extends Component {
 
 
                     </div>
-                    </div>
+                    </div> */}
                 </div></div>
 
 
@@ -469,7 +501,7 @@ class MiddleBar extends Component {
                     </div>
 
 
-                    <RightSideBar/>
+                    <RightSideBar />
                 </div>
 
                 <div className="clear-footer"></div>
@@ -477,36 +509,7 @@ class MiddleBar extends Component {
 
 
 
-                <div className="footer-subscribe">
-                    <aside id="mc4wp_form_widget-2" className="widget widget_mc4wp_form_widget"><h4 className="footer-subscribe-title">Subscribe Newsletter</h4>
-                        <form id="mc4wp-form-1" className="mc4wp-form mc4wp-form-6" method="post" data-id="6" data-name="Form" ><div className="mc4wp-form-fields"><p className="mdes">Subscribe my Newsletter for new blog posts, tips  new photos. Let's stay updated!</p>
-                            <p className="mname"><input type="text" name="NAME" placeholder="Name..." /></p>
-                            <p className="memail"><input type="email" id="mc4wp_email" name="EMAIL" placeholder="Email..." required /></p>
-                            <p className="msubmit"><input type="submit" /></p><div style={{ display: "none" }}><input type="text" name="_mc4wp_honeypot" tabIndex="-1" autoComplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" /></div><div className="mc4wp-response"></div></form></aside>	</div>
-
-                <footer id="footer-section" className="penci-footer-social-media penci-lazy" itemScope itemType="http://schema.org/WPFooter">
-                    <div className="container">
-                        <div className="footer-socials-section penci-social-colored">
-                            <ul className="footer-socials">
-                                <li><a href="https://www.facebook.com/PenciDesign" rel="nofollow" target="_blank"><i className="fa fa-facebook"></i><span>Facebook</span></a></li>
-                                <li><a href="https://twitter.com/PenciDesign" rel="nofollow" target="_blank"><i className="fa fa-twitter"></i><span>Twitter</span></a></li>
-                                <li><a href="#" rel="nofollow" target="_blank"><i className="fa fa-instagram"></i><span>Instagram</span></a></li>
-                                <li><a href="#" rel="nofollow" target="_blank"><i className="fa fa-youtube-play"></i><span>Youtube</span></a></li>
-                                <li><a href="#"><i className="fa fa-envelope-o"></i><span>Email</span></a></li>
-                                <li><a href="#" rel="nofollow" target="_blank"><i className="fa fa-rss"></i><span>RSS</span></a></li>
-                            </ul>
-                        </div>
-                        <div className="footer-logo-copyright footer-not-logo footer-not-gotop">
-
-
-                            <div id="footer-copyright">
-                                <p>@2019 - PenciDesign. All Right Reserved. Designed and Developed by <a href="http://themeforest.net/item/soledad-multiconcept-blogmagazine-wp-theme/12945398?ref=PenciDesign" target="_blank">PenciDesign</a></p>
-                            </div>
-                        </div>
-                        <div className="penci-go-to-top-floating"><i className="fa fa-angle-up"></i></div>
-                    </div>
-                </footer>
-
+                <Footer />
             </div>
 
         )
